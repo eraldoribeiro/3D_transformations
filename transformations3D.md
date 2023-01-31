@@ -54,6 +54,7 @@ $$
 $$
 
 And also in matrix form:
+
 $$
 \begin{align}
     \begin{bmatrix}    x^\prime \\    y^\prime \\       z^\prime   \end{bmatrix}   
@@ -80,18 +81,22 @@ $$
 	\end{bmatrix}.	
 \end{align}
 $$
+
 or, in short:
+
 $$
 \begin{align}
 	{\bf x}^\prime = A{\bf x},
 	\label{linearND}
 \end{align}
 $$
+
 where matrix $A$ encodes the transformation.
 
 ## Some important 3-D geometric transformations 
 
 Scaling:
+
 $$
 \begin{align}
 	S = 
@@ -102,7 +107,9 @@ $$
 	\end{bmatrix}. 
 \end{align}
 $$
+
 Rotations (about the $x$-axis, $y$-axis, and $z$-axis):
+
 $$
 \begin{align}
 	R_x = 
@@ -113,6 +120,7 @@ $$
 	\end{bmatrix},
 \end{align}
 $$
+
 $$
 \begin{align}
 	R_y = 
@@ -136,6 +144,7 @@ $$
 $$
 
 By multiplying these matrices, we can obtain general rotations such as: 
+
 $$
 R = R_z\,R_y\,R_x = 
   \underbrace{\begin{bmatrix}
@@ -154,6 +163,7 @@ R = R_z\,R_y\,R_x =
 		  0 &  \sin\theta &  \cos\theta 
 	\end{bmatrix}}_{\text{roll}}.
 $$
+
 ![Pitch Roll and Yaw](PitchRollYaw.png)
 
 Figure from https://www.touringmachine.com/Articles/aircraft/6/
@@ -163,6 +173,7 @@ Figure from https://www.touringmachine.com/Articles/aircraft/6/
 ###Transforming a 3-D shape 
 
 The following matrix stores the 8 vertices of a rectangular prism:
+
 $$
 \begin{align} 
   X = 
@@ -175,6 +186,7 @@ $$
 $$
 
 We can scale the shape by half as follows:
+
 $$
 \begin{align}
 	X^\prime &= S\,X \notag\\
