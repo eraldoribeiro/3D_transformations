@@ -189,14 +189,13 @@ We can scale the shape by half as follows:
 
 $$
 \begin{align}
-	X^\prime &= S\,X \notag\\
-	&= 
-	\begin{bmatrix}
-		1/2 & 0 & 0 \\
-		0 & 1/2 & 0 \\
-		0 &   0 & 1/2
-	\end{bmatrix} 
-	
+   X^\prime &= S\,X \notag\\
+   &= 
+   \begin{bmatrix}
+	1/2 & 0 & 0 \\
+	0 & 1/2 & 0 \\
+	0 &   0 & 1/2
+  \end{bmatrix} 	
   \begin{bmatrix}      
   	0 & 0 & 0 & 0 & 1 & 1 & 1 & 1\\
   	0 & 0 & 1 & 1 & 0 & 0 & 1 & 1\\
