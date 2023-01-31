@@ -196,15 +196,18 @@ $$
 		0 & 1/2 & 0 \\
 		0 &   0 & 1/2
 	\end{bmatrix} 
+	
   \begin{bmatrix}      
   	0 & 0 & 0 & 0 & 1 & 1 & 1 & 1\\
   	0 & 0 & 1 & 1 & 0 & 0 & 1 & 1\\
-    0 & 1 & 0 & 1 & 0 & 1 & 0 & 1
+    	0 & 1 & 0 & 1 & 0 & 1 & 0 & 1
   \end{bmatrix}   
 \notag \\
 	&=
 \begin{bmatrix}
-0 & 0 & 0 & 0 & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & \frac{1}{2}\\ 0 & 0 & \frac{1}{2} & \frac{1}{2} & 0 & 0 & \frac{1}{2} & \frac{1}{2}\\ 0 & \frac{1}{2} & 0 & \frac{1}{2} & 0 & \frac{1}{2} & 0 & \frac{1}{2}
+	0 & 0 & 0 & 0 & \frac{1}{2} & \frac{1}{2} & \frac{1}{2} & \frac{1}{2}\\ 
+	0 & 0 & \frac{1}{2} & \frac{1}{2} & 0 & 0 & \frac{1}{2} & \frac{1}{2}\\ 
+	0 & \frac{1}{2} & 0 & \frac{1}{2} & 0 & \frac{1}{2} & 0 & \frac{1}{2}
 \end{bmatrix}.
 \end{align}
 $$
