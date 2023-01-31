@@ -22,6 +22,7 @@ $$
 This 3-D linear transformation consists of three separate equations, each resulting in one component (or coordinate) of the transformed point. The values $a_i$ are the parameters of the transformation. 
 
 We can write it as a linear combination of vectors: 
+
 $$
 \begin{align}
 	\begin{bmatrix}
