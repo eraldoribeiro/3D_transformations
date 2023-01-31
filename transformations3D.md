@@ -8,13 +8,13 @@ These notes introduce the concept of 3-D linear transformations. Three-dimension
 
 ## Three-dimensional linear transformations 
 
-As expected, a 3-D linear transformation maps three-dimensional points ${\bf x} = (x,y,z)^\mathsf{T}$ onto three-dimensional points ${\bf x}^\prime = (x^\prime,y^\prime,z^\prime)^\mathsf{T}$. Thus, we can write the transformation as a function $f: \mathbb{R}^3 \rightarrow \mathbb{R}^3$ such that:
+As expected, a 3-D linear transformation maps three-dimensional points ${\bf x} = (x,y,z)^\mathsf{T}$ onto three-dimensional points ${\bf x}^\prime = (x^\prime,y^\prime,z^\prime)^\mathsf{T}$. Thus, we can write the transformation as a function $f:\mathbb{R}^3 \rightarrow \mathbb{R}^3$ such that:
+
 $$
 \begin{align}
 		x^\prime = f_1(x,y,z) = a_1 x + a_2 y + a_3 z, \notag \\
 		y^\prime = f_2(x,y,z) = a_4 x + a_5 y + a_6 z, \notag \\
 		z^\prime = f_3(x,y,z) = a_7 x + a_8 y + a_9 z.
-
 		\label{2Dlinear}
 \end{align}
 $$
